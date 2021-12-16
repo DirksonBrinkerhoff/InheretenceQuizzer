@@ -1,8 +1,12 @@
 
 public class Skier extends SnowRider
 	{
-		protected String type = "Skier";
+		//protected String type = "Skier";
 		
+		public Skier()
+			{
+				type = "Skier";
+			}
 		public void speed()
 			{
 				System.out.println("Straight shreddin man. 60 MPH");

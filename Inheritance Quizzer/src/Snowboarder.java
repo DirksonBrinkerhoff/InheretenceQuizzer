@@ -1,8 +1,11 @@
-
-public class Snowboarder
+public class Snowboarder extends SnowRider
 	{
 		protected String type = "Snowboarder";
 		
+		public Snowboarder()
+			{
+				type = "Snowboarder";
+			}
 		public void speed()
 			{
 				System.out.println("Oh man! I'm so darn slow!");
