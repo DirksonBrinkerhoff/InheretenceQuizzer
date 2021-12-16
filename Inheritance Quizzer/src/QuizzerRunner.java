@@ -6,13 +6,13 @@ public class QuizzerRunner
 			{
 				//SnowRider x = new SnowRider();
 				//SnowRider x = new Skier();
-				SnowRider x = new Snowboarder();
+				//SnowRider x = new Snowboarder();
 				//Snowboarder x = new Snowboarder();
+				Skier x = new Skier();
 				
-				
-				x.speed();
-				x.hygene();
-				//x.tricks();
+				//x.speed();
+				//x.hygene();
+				x.tricks();
 				
 				//x.rideLifts();
 				

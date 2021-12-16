@@ -183,33 +183,157 @@ public class Quizz
 	}
 	public static void question7()
 	{
-		
+		// Print sixth question
+		System.out.println("Skier = new Skier");
+		System.out.println("x.tricks");
+		System.out.println();
+		System.out.println("What will be printed?");
+		System.out.println("(1) 360!");
+		System.out.println("(2) **throws tripples cork 12");
+		System.out.println("(3) Bunny hop mannn!");
+		System.out.println("(4) Oh man! I'm so darn slow!");
+		System.out.println("(5) Error!");
+												
+				int questionSeven = questions.nextInt();
+												
+				// if statement for sixth question
+				if(questionSeven == 2)
+					{
+						counter++;
+						System.out.println("You have " + counter + " right answers");
+						System.out.println();
+					}
+				else 
+					{
+						System.out.println("You have " + counter + " right answers");
+						System.out.println();
+					}
 		
 		
 	}
 	public static void question8()
 	{
-		
+		// Print sixth question
+				System.out.println("Skier = new Skier");
+				System.out.println("x.tricks");
+				System.out.println();
+				System.out.println("What will be printed?");
+				System.out.println("(1) 360!");
+				System.out.println("(2) **throws tripples cork 12");
+				System.out.println("(3) Bunny hop mannn!");
+				System.out.println("(4) Oh man! I'm so darn slow!");
+				System.out.println("(5) Error!");
+														
+						int questionEight = questions.nextInt();
+														
+						// if statement for sixth question
+						if(questionEight == 2)
+							{
+								counter++;
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+						else 
+							{
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+				
 		
 		
 	}
 	public static void question9()
 	{
-		
+		// Print sixth question
+				System.out.println("Skier = new Skier");
+				System.out.println("x.tricks");
+				System.out.println();
+				System.out.println("What will be printed?");
+				System.out.println("(1) 360!");
+				System.out.println("(2) **throws tripples cork 12");
+				System.out.println("(3) Bunny hop mannn!");
+				System.out.println("(4) Oh man! I'm so darn slow!");
+				System.out.println("(5) Error!");
+														
+						int questionNine = questions.nextInt();
+														
+						// if statement for sixth question
+						if(questionNine == 2)
+							{
+								counter++;
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+						else 
+							{
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+				
 		
 		
 		
 	}
 	public static void question10()
 	{
-			
+		// Print sixth question
+				System.out.println("Skier = new Skier");
+				System.out.println("x.tricks");
+				System.out.println();
+				System.out.println("What will be printed?");
+				System.out.println("(1) 360!");
+				System.out.println("(2) **throws tripples cork 12");
+				System.out.println("(3) Bunny hop mannn!");
+				System.out.println("(4) Oh man! I'm so darn slow!");
+				System.out.println("(5) Error!");
+														
+						int questionSeven = questions.nextInt();
+														
+						// if statement for sixth question
+						if(questionSeven == 2)
+							{
+								counter++;
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+						else 
+							{
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+				
 		
 		
 		
 	}
 	public static void question11()
 	{
-		
+		// Print sixth question
+				System.out.println("Skier = new Skier");
+				System.out.println("x.tricks");
+				System.out.println();
+				System.out.println("What will be printed?");
+				System.out.println("(1) 360!");
+				System.out.println("(2) **throws tripples cork 12");
+				System.out.println("(3) Bunny hop mannn!");
+				System.out.println("(4) Oh man! I'm so darn slow!");
+				System.out.println("(5) Error!");
+														
+						int questionSeven = questions.nextInt();
+														
+						// if statement for sixth question
+						if(questionSeven == 2)
+							{
+								counter++;
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+						else 
+							{
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+				
 		
 		
 		
@@ -217,7 +341,32 @@ public class Quizz
 	public static void question12()
 	{
 		
-		
+		// Print sixth question
+				System.out.println("Skier = new Skier");
+				System.out.println("x.tricks");
+				System.out.println();
+				System.out.println("What will be printed?");
+				System.out.println("(1) 360!");
+				System.out.println("(2) **throws tripples cork 12");
+				System.out.println("(3) Bunny hop mannn!");
+				System.out.println("(4) Oh man! I'm so darn slow!");
+				System.out.println("(5) Error!");
+														
+						int questionSeven = questions.nextInt();
+														
+						// if statement for sixth question
+						if(questionSeven == 2)
+							{
+								counter++;
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+						else 
+							{
+								System.out.println("You have " + counter + " right answers");
+								System.out.println();
+							}
+				
 		
 		
 	}
