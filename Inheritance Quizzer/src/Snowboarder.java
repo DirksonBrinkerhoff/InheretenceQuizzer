@@ -1,7 +1,5 @@
 public class Snowboarder extends SnowRider
 	{
-		protected String type = "Snowboarder";
-		
 		public Snowboarder()
 			{
 				type = "Snowboarder";

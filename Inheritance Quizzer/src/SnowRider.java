@@ -13,7 +13,7 @@ public class SnowRider
 			System.out.println("average for a human being");
 		}
 		
-		protected String type;
+		protected String type = "SnowRider";
 		
 		public void rideLifts()
 		{

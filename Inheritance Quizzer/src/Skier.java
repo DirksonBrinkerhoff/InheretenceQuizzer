@@ -1,8 +1,6 @@
 
 public class Skier extends SnowRider
-	{
-		//protected String type = "Skier";
-		
+	{	
 		public Skier()
 			{
 				type = "Skier";

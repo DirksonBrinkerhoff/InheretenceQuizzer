@@ -17,8 +17,8 @@ public class Quizz
 		int startQuizz = questions.nextInt();
 		if(startQuizz == 1)
 			{
-				System.out.println("SnowRider x = new Snowrider");
-				System.out.println("x.speed");
+				System.out.println("SnowRider x = new SnowRider();");
+				System.out.println("x.speed();");
 				System.out.println();
 				System.out.println("What will be printed?");
 				System.out.println("(1) Straight shreddin man. 60 MPH!");
@@ -45,8 +45,8 @@ public class Quizz
 	public static void question2()
 	{
 		// Print second question
-		System.out.println("SnowRider x = new Skier");
-		System.out.println("x.hygene");
+		System.out.println("SnowRider x = new Skier();");
+		System.out.println("x.hygene();");
 		System.out.println();
 		System.out.println("What will be printed?");
 		System.out.println("(1) Smells like baby Jesus!");
@@ -73,14 +73,14 @@ public class Quizz
 	public static void question3()
 	{
 		// Print third question
-		System.out.println("SnowRider x = new Snowboarder");
-		System.out.println("x.hygene");
-		System.out.println("x.speed");
+		System.out.println("SnowRider x = new Snowboarder();");
+		System.out.println("x.hygene();");
+		System.out.println("x.speed();");
 		System.out.println();
 		System.out.println("What will be printed?");
 		System.out.println("(1) Smells like baby Jesus! and Fly like the wind!");
 		System.out.println("(2) Oh man! I'm so darn slow! and **drools aggressively");
-		System.out.println("(3) **drools aggressively and Bunny hop mannn!");
+		System.out.println("(3) **drools aggressively and Oh man! I'm so darn slow!");
 		System.out.println("(4) Error!");
 				
 			int questionThree = questions.nextInt();
@@ -100,8 +100,8 @@ public class Quizz
 	public static void question4()
 	{
 		// Print fourth question
-		System.out.println("Snowboarder x = new SnowRider");
-		System.out.println("x.tricks");
+		System.out.println("Snowboarder x = new SnowRider();");
+		System.out.println("x.tricks();");
 		System.out.println();
 		System.out.println("What will be printed?");
 		System.out.println("(1) Bunny hop mannn!");
@@ -127,8 +127,8 @@ public class Quizz
 	public static void question5()
 	{
 		// Print fifth question
-		System.out.println("SnowRider x = new Skier");
-		System.out.println("x.rideLifts");
+		System.out.println("SnowRider x = new Skier();");
+		System.out.println("x.rideLifts();");
 		System.out.println();
 		System.out.println("What will be printed?");
 		System.out.println("(1) The SnowBoarder is gonna ride that chairr mann");
@@ -156,8 +156,8 @@ public class Quizz
 	public static void question6()
 	{
 		// Print sixth question
-		System.out.println("Snowboader = new Snowboarder");
-		System.out.println("x.tricks");
+		System.out.println("Snowboarder x = new Snowboarder();");
+		System.out.println("x.tricks();");
 		System.out.println();
 		System.out.println("What will be printed?");
 		System.out.println("(1) Bunny hop");
@@ -184,8 +184,8 @@ public class Quizz
 	public static void question7()
 	{
 		// Print sixth question
-		System.out.println("Skier = new Skier");
-		System.out.println("x.tricks");
+		System.out.println("Skier x = new Skier();");
+		System.out.println("x.tricks();");
 		System.out.println();
 		System.out.println("What will be printed?");
 		System.out.println("(1) 360!");
@@ -214,8 +214,9 @@ public class Quizz
 	public static void question8()
 	{
 		// Print sixth question
-				System.out.println("Skier = new Skier");
-				System.out.println("x.tricks");
+				System.out.println("Skier x = new SnowRider();");
+				System.out.println("x.hygene();");
+				System.out.println("x.tricks();");
 				System.out.println();
 				System.out.println("What will be printed?");
 				System.out.println("(1) 360!");
@@ -226,8 +227,8 @@ public class Quizz
 														
 						int questionEight = questions.nextInt();
 														
-						// if statement for sixth question
-						if(questionEight == 2)
+						// if statement for Eighth question
+						if(questionEight == 5)
 							{
 								counter++;
 								System.out.println("You have " + counter + " right answers");
@@ -238,27 +239,25 @@ public class Quizz
 								System.out.println("You have " + counter + " right answers");
 								System.out.println();
 							}
-				
-		
-		
 	}
 	public static void question9()
 	{
 		// Print sixth question
-				System.out.println("Skier = new Skier");
-				System.out.println("x.tricks");
+				System.out.println("SnowRider x = new SnowRider();");
+				System.out.println("x.RideLifts();");
+				System.out.println("x.tricks();");
 				System.out.println();
 				System.out.println("What will be printed?");
-				System.out.println("(1) 360!");
-				System.out.println("(2) **throws tripples cork 12");
+				System.out.println("(1) The SnowRider is gonna ride that chairrr mann and 360!");
+				System.out.println("(2) **throws tripples cork 12 and The SnowRider is gonna ride that chairrr mann");
 				System.out.println("(3) Bunny hop mannn!");
-				System.out.println("(4) Oh man! I'm so darn slow!");
+				System.out.println("(4) 360! and The Snowboarder is gonna ride that chairr mann");
 				System.out.println("(5) Error!");
 														
 						int questionNine = questions.nextInt();
 														
 						// if statement for sixth question
-						if(questionNine == 2)
+						if(questionNine == 1)
 							{
 								counter++;
 								System.out.println("You have " + counter + " right answers");
@@ -269,93 +268,89 @@ public class Quizz
 								System.out.println("You have " + counter + " right answers");
 								System.out.println();
 							}
-				
-		
-		
 		
 	}
 	public static void question10()
 	{
 		// Print sixth question
-				System.out.println("Skier = new Skier");
-				System.out.println("x.tricks");
-				System.out.println();
-				System.out.println("What will be printed?");
-				System.out.println("(1) 360!");
-				System.out.println("(2) **throws tripples cork 12");
-				System.out.println("(3) Bunny hop mannn!");
-				System.out.println("(4) Oh man! I'm so darn slow!");
-				System.out.println("(5) Error!");
+		System.out.println("Skier x = new SnowRider();");
+		System.out.println("x.tricks();");
+		System.out.println("x.speed();");
+		System.out.println("x.rideLifts();");
+		System.out.println();
+		System.out.println("What will be printed?");
+		System.out.println("(1) 360!, Straight shreddin man. 60 MPH, and The Skier is gonna ride that chair mann");
+		System.out.println("(2) **throws tripples cork 12");
+		System.out.println("(3) Bunny hop mannn!");
+		System.out.println("(4) Oh man! I'm so darn slow!");
+		System.out.println("(5) Error!");
 														
-						int questionSeven = questions.nextInt();
+				int questionTen = questions.nextInt();
 														
-						// if statement for sixth question
-						if(questionSeven == 2)
-							{
-								counter++;
-								System.out.println("You have " + counter + " right answers");
-								System.out.println();
-							}
-						else 
-							{
-								System.out.println("You have " + counter + " right answers");
-								System.out.println();
-							}
-				
-		
-		
-		
+				// if statement for sixth question
+				if(questionTen == 5)
+					{
+						counter++;
+						System.out.println("You have " + counter + " right answers");
+						System.out.println();
+					}
+				else 
+					{
+						System.out.println("You have " + counter + " right answers");
+						System.out.println();
+					}
 	}
 	public static void question11()
 	{
 		// Print sixth question
-				System.out.println("Skier = new Skier");
-				System.out.println("x.tricks");
-				System.out.println();
-				System.out.println("What will be printed?");
-				System.out.println("(1) 360!");
-				System.out.println("(2) **throws tripples cork 12");
-				System.out.println("(3) Bunny hop mannn!");
-				System.out.println("(4) Oh man! I'm so darn slow!");
-				System.out.println("(5) Error!");
+		System.out.println("SnowRider x = new SnowBoarder();");
+		System.out.println("x.speed();");
+		System.out.println("x.hygene();");
+		System.out.println("x.rideLifts();");
+		System.out.println();
+		System.out.println("What will be printed?");
+		System.out.println("(1) Oh man! I'm so darn slow!, Smells like baby Jesus!, and The SnowRider is gonna ride that chair mann");
+		System.out.println("(2) Oh man! I'm so darn slow!, **drools agressively, and The SnowBoarder is gonna ride that chair mann");
+		System.out.println("(3) Oh man! I'm so darn slow!, **drools agressively, and The SnowRider is gonna ride that chair mann");
+		System.out.println("(4) Oh man! I'm so darn slow!");
+		System.out.println("(5) Error!");
 														
-						int questionSeven = questions.nextInt();
-														
-						// if statement for sixth question
-						if(questionSeven == 2)
-							{
-								counter++;
-								System.out.println("You have " + counter + " right answers");
-								System.out.println();
-							}
-						else 
-							{
-								System.out.println("You have " + counter + " right answers");
-								System.out.println();
-							}
-				
-		
-		
+				int questionEleven = questions.nextInt();
+													
+				// if statement for eleventh question question
+				if(questionEleven == 2)
+					{
+						counter++;
+						System.out.println("You have " + counter + " right answers");
+						System.out.println();
+					}
+				else 
+					{
+						System.out.println("You have " + counter + " right answers");
+						System.out.println();
+					}
+			
 		
 	}
 	public static void question12()
 	{
 		
 		// Print sixth question
-				System.out.println("Skier = new Skier");
-				System.out.println("x.tricks");
-				System.out.println();
-				System.out.println("What will be printed?");
-				System.out.println("(1) 360!");
-				System.out.println("(2) **throws tripples cork 12");
-				System.out.println("(3) Bunny hop mannn!");
-				System.out.println("(4) Oh man! I'm so darn slow!");
-				System.out.println("(5) Error!");
+		System.out.println("SnowRider x = new SnowRider();");
+		System.out.println("x.speed();");
+		System.out.println("x.hygene();");
+		System.out.println();
+		System.out.println("What will be printed?");
+		System.out.println("(1) Straight shreddin man. 60 MPH and Smells like baby Jesus!");
+		System.out.println("(2) Oh man! I'm so darn slow! and **drools aggressively");
+		System.out.println("(3) Fly like the wind! and average for a human being");
+		System.out.println("(4) Oh man! I'm so darn slow!");
+		System.out.println("(5) Error!");
 														
-						int questionSeven = questions.nextInt();
+						int questionTwelve = questions.nextInt();
 														
-						// if statement for sixth question
-						if(questionSeven == 2)
+						// if statement for twelfth question
+						if(questionTwelve == 3)
 							{
 								counter++;
 								System.out.println("You have " + counter + " right answers");
